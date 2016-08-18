@@ -18,6 +18,12 @@ The code uses the flash file system to store the internal web page (using millig
 
 All the I/Os can be seen or controlled from the internal web page (that uses a lightweight local REST API that could also be called with simple json messages) or from MQTT pubs and subs to Adafruit IO, this allow to link it to other things using the Adafruit IFTTT channel.
 
+The MQTT feeds that it uses are:
+
+ - {user}/feeds/{chipId}-temp 
+ - - {user}/feeds/{chipId}-temp 
+ - - {user}/feeds/{chipId}-temp 
+
 ## TODOs
 
 - Use secure MQTT
