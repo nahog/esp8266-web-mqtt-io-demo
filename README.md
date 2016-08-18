@@ -21,8 +21,24 @@ All the I/Os can be seen or controlled from the internal web page (that uses a l
 The MQTT feeds that it uses are:
 
  - {user}/feeds/{chipId}-temp 
- - - {user}/feeds/{chipId}-temp 
- - - {user}/feeds/{chipId}-temp 
+ - {user}/feeds/{chipId}-relay1 
+ - {user}/feeds/{chipId}-relay2
+ - {user}/feeds/{chipId}-led-rgb
+ - {user}/feeds/{chipId}{user}/feeds/{chipId}-toggle-button
+ - {user}/feeds/{chipId}-toggle-button-state
+
+# Web page details
+
+ - Responsive (Desktop/Table/Phone compatible)
+ - Minified
+ - Uses micro frameworks
+ - Uses ajax
+ - Auto refreshes itself
+ - Allows to edit the chipId
+ - Allows to send RGB colors
+ - Allows to set ON/OFF each relay
+ - Shows the current temp value
+ - Shows the current button value (each time the button is pressed the value changes)
 
 ## TODOs
 
